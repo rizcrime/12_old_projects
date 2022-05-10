@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+ErrorDocument 500 /error_50x.html
+ErrorDocument 502 /error_50x.html
+ErrorDocument 503 /error_50x.html
+ErrorDocument 504 /error_50x.html

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/fragment_data" android:background="@color/grey_lighter" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+            <android.support.v7.widget.CardView android:id="@+id/cvProfile" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                    <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_profile"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Profile PIHK"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:id="@+id/cvProgram" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                    <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_rencana"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Rencana Program"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+            <android.support.v7.widget.CardView android:id="@+id/cvLaporan" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                    <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_laporan"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Laporan Penyelenggaraan"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:id="@+id/cvChat" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                    <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_chat"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Messenger"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" app:cardCornerRadius="3dp" app:cardElevation="0.01dp">
+            <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" android:textColor="#616161" android:gravity="center" android:id="@+id/data_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Not Available!"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" app:cardCornerRadius="3dp" app:cardElevation="0.01dp">
+            <TextView android:gravity="center" android:id="@+id/data_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Try to check your connection, to get news data update."/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

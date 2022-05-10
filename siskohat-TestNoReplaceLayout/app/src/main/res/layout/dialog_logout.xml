@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#fff" android:gravity="center_vertical" android:id="@+id/title" android:background="@color/colorAccent" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="50dp" android:text="@string/app_name"/>
+    <RelativeLayout android:id="@+id/body" android:background="#fff" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/title" android:layout_alignParentLeft="true">
+        <ImageButton android:id="@+id/image" android:background="#00ffffff" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginTop="15dp" android:src="@mipmap/ic_launcher" android:scaleType="centerCrop" android:layout_centerHorizontal="true" android:contentDescription="image"/>
+        <TextView android:textSize="18sp" android:textColor="#000" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Anda yakin ingin logout?" android:layout_below="@+id/image"/>
+    </RelativeLayout>
+</RelativeLayout>

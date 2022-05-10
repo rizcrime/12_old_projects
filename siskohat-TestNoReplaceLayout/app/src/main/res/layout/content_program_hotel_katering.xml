@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramAirlines" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/arilines" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramHotelMakkah" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hotel_makkah" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramPetugasPihk" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/nama_petugas_pihk" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramHotelMadinah" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hotel_madinah" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramHotelJeddah" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hotel_jeddah" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramHotelTransit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hotel_transit" android:inputType="phone" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramKateringMakkah" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/katering_makkah" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramKateringMadinah" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/katering_madinah" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramKateringJeddah" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/katering_jeddah" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramKateringTransit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/katering_transit" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

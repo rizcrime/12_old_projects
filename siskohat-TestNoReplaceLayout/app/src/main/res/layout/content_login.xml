@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/content_login" android:paddingLeft="30dp" android:paddingTop="30dp" android:paddingRight="30dp" android:paddingBottom="30dp" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="70dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="36sp" android:textStyle="bold" android:textColor="@color/cardview_light_background" android:layout_gravity="center" android:id="@+id/textView" android:background="@drawable/ic_launcher" android:paddingBottom="70dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false"/>
+        <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="17dp" android:textColor="@color/colorTblPrimaryDark" android:id="@+id/et_email" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email" android:ems="10" android:singleLine="false" android:inputType="textPersonName"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="17dp" android:textColor="@color/colorTblPrimaryDark" android:id="@+id/et_password" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Password" android:ems="10" android:inputType="textPassword"/>
+        </android.support.design.widget.TextInputLayout>
+        <Button android:textStyle="bold" android:textColor="@color/cardview_light_background" android:id="@+id/btn_login" android:background="@drawable/selector_btn_login" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Login"/>
+    </LinearLayout>
+    <com.victor.loading.rotate.RotateLoading android:id="@+id/rotateloading" android:visibility="gone" android:layout_width="80dp" android:layout_height="80dp" android:layout_centerInParent="true" app:loading_width="5dp" app:loading_color="#ffffff"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="50dp" android:layout_alignParentBottom="true" app:srcCompat="@drawable/footer"/>
+</RelativeLayout>

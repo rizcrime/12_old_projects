@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/icon_money"
+        android:layout_marginLeft="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagihan SPP"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/bulan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Desember"
+            android:textSize="20sp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/rp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Rp."
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/nominal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/rp"
+                android:text="100.000.000"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/hijau_cerah"
+                android:padding="10dp"
+                android:text="LUNAS"
+                android:textColor="@color/putih"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

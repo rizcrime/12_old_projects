@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/content_loan_request" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:id="@+id/backDataHome" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@drawable/btn_rpt" android:padding="10dp" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_span="3" android:text="BACK" android:drawableLeft="@android:drawable/arrow_up_float"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/rpt1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@drawable/btn_rpt" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="Keberangkatan Tanah Air" android:drawableLeft="@drawable/star"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/rpt2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@drawable/btn_rpt" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="Kedatangan Madinah" android:drawableLeft="@drawable/star"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/rpt3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@drawable/btn_rpt" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="Kedatangan Jeddah" android:drawableLeft="@drawable/star"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/rpt4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@drawable/btn_rpt" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="Kedatangan Makkah" android:drawableLeft="@drawable/star"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/rpt5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@drawable/btn_rpt" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="Kedatangan di Bandara Jeddah" android:drawableLeft="@drawable/star"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/rpt6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@drawable/btn_rpt" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="Kedatangan Dari Arab Saudi" android:drawableLeft="@drawable/star"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/rpt7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@drawable/btn_rpt" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="Kedatangan di Tanah Air" android:drawableLeft="@drawable/star"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

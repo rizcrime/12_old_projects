@@ -1,0 +1,27 @@
+<resources>
+            <style name="AppTheme.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+            <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Clean Usage of listTitle -->
+    <style name="listTitleStyle">
+        <item name="android:lineSpacingExtra">1dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textDirection">locale</item>
+    </style>
+
+    <style name="listStyleNoPadding">
+        <item name="android:clipToPadding">false</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+    </style>
+</resources>

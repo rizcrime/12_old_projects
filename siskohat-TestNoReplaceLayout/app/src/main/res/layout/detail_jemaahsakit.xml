@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TabHost android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TabWidget android:id="@android:id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:tag="tabs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tab 1"/>
+            <FrameLayout android:id="@android:id/tabcontent" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:id="@+id/tab1" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <EditText android:id="@+id/tv_noPassport" android:background="@drawable/form_grey" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="70dp" android:layout_margin="10dp" android:text="@string/txt_noPassport" android:ems="10" android:inputType="textPersonName" style="@style/Widget.AppCompat.EditText"/>
+                    <EditText android:id="@+id/tv_pinPihk" android:background="@drawable/form_grey" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="70dp" android:layout_margin="10dp" android:text="txt_" android:ems="10" android:inputType="textPersonName" style="@style/Widget.AppCompat.EditText"/>
+                    <EditText android:id="@+id/tv_usia" android:background="@drawable/form_grey" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="70dp" android:layout_margin="10dp" android:text="@string/txt_usia" android:ems="10" android:inputType="textPersonName" style="@style/Widget.AppCompat.EditText"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/tab2" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <EditText android:id="@+id/tx_tanggal" android:background="@drawable/form_grey" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="70dp" android:layout_margin="10dp" android:text="@string/txt_tanggal" android:ems="10" android:inputType="textPersonName" style="@style/Widget.AppCompat.EditText"/>
+                    <EditText android:id="@+id/tv_rsbphi" android:background="@drawable/form_grey" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="70dp" android:layout_margin="10dp" android:text="@string/txt_rsbphi" android:ems="10" android:inputType="textPersonName" style="@style/Widget.AppCompat.EditText"/>
+                    <EditText android:id="@+id/tv_sebab" android:background="@drawable/form_grey" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="70dp" android:layout_margin="10dp" android:text="txt_sebab" android:ems="10" android:inputType="textPersonName" style="@style/Widget.AppCompat.EditText"/>
+                    <EditText android:id="@+id/tx_keterangan" android:background="@drawable/form_grey" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="70dp" android:layout_margin="10dp" android:text="@string/txt_keterangan" android:ems="10" android:inputType="textPersonName" style="@style/Widget.AppCompat.EditText"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</android.support.constraint.ConstraintLayout>

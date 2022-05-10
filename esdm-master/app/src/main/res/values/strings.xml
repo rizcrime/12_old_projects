@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ESDM</string>
+
+    <string name="p1">Produksi Minyak</string>
+    <string name="p2">ICP</string>
+    <string name="p3">Produksi Gas</string>
+    <string name="p4">Produksi Ekuivalen Minyak dan Gas</string>
+    <string name="p5">Lifting Tahun Berjalan</string>
+    <string name="p6">Harga BBM</string>
+    <string name="p7">Progress Penyaluran Premium Jamali</string>
+    <string name="p8">Berita Opec Harian</string>
+    <string name="p9">Harga Batu Bara Acuan</string>
+    <string name="p10">Harga Mineral Acuan</string>
+    <string name="p11">Status Ketenagalistrikan</string>
+
+    <string name="g1">Gunung Api</string>
+    <string name="g2">Gerakan Tanah</string>
+    <string name="g3">Gempa Bumi</string>
+
+    <string name="k1">Bidang Migas</string>
+    <string name="k2">Bidang Minerba</string>
+    <string name="k3">Bidang Ketenagalistrikan</string>
+    <string name="k4">Bidang EBTKE</string>
+    <string name="k5">Bidang Geologi</string>
+
+    <string name="cari">Cari</string>
+    <string name="tulis_tanggal">Tulis Tanggal</string>
+
+    <string name="judul_top">HAK CIPTA © 2019 KEMENTERIAN ENERGI DAN SUMBER DAYA MINERAL</string>
+    <string name="judul_login">KEMENTERIAN ENERGI DAN SUMBER DAYA MINERAL</string>
+    <string name="judul_login2">JL. MEDAN MERDEKA SELATAN NO. 18</string>
+    <string name="judul_login3">JAKARTA PUSAT 10110</string>
+    <string name="judul_login4">TELP. 021 3804242 FAX. 021 3507210</string>
+
+</resources>

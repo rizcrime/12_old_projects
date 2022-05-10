@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">EmergencyButton2</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="nomor_hp">Nomor Hp</string>
+    <string name="registrasi_akun">Registrasi Akun</string>
+    <string name="back">BACK</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="forpass_text">Silahkan masukan email anda untuk mengetahui password anda</string>
+    <string name="forpass_email">Email</string>
+    <string name="submit">Submit</string>
+    <string name="alert">Alert</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+    <string name="infoDarurat">Sedang membagikan lokasi darurat</string>
+    <string name="info_untuk_darurat">Aktifkan lokasi darurat</string>
+    <string name="lost_and_found">Lost and found</string>
+    <string name="for_logout">For Logout</string>
+    <string name="save_data">Save Data</string>
+    <string name="nama_barang">Nama Barang</string>
+    <string name="nama_pemosting">Nama Pemosting</string>
+    <string name="tanggal">Tanggal</string>
+</resources>

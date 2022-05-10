@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramTransportasi" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/transportasi" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramHargaVIP" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/harga_vip" android:inputType="numberDecimal" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramHargaStandart" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/harga_standard" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramPerwakilanArabSaudi" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/perwakilan_arab_saudi" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramHNoTelpPerwakilan" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/tlp_perwakilan" android:inputType="phone" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramRuterPerjalanan" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/rute_perjalanan" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramHari" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/lama_penyelenggaraan" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramLamaTInggalJkt" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/lama_tinggal_jkt" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramLamaTInggalMadinah" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/lama_tinggal_madinah" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramLamaTInggalMakkah" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/lama_tinggal_makkah" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramLamaTInggal" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/lama_tinggal" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

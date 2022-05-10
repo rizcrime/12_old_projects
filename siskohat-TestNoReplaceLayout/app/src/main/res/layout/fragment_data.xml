@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?android:attr/windowBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp">
+        <RelativeLayout android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:id="@+id/llProfile" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@drawable/btn_rpt" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="Profile PIHK" android:drawableLeft="@drawable/star"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/llProgram" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@drawable/btn_rpt" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="Program PIHK" android:drawableLeft="@drawable/star"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/llLaporan" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@drawable/btn_rpt" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="Laporan Penyelenggaraan" android:drawableLeft="@drawable/star"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</FrameLayout>

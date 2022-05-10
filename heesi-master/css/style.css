@@ -1,0 +1,48 @@
+#tombol-tambah{
+	margin-bottom: 20px; 
+}
+
+#form-kiri{
+	position: absolute;
+	width: 1000px;
+}
+
+#form-kanan{
+	position: relative;
+	margin-left: 600px;
+	margin-top: 00px;
+}
+
+#tombol-tambah-mata-uang{
+	margin-bottom: 10px;
+}
+
+/*Loader*/
+#loader-wrapper {
+  position: fixed;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+/*Text Loading */
+ h5{
+ display: block;
+ position: relative;
+ text-align: center;
+ color: "#1d3f72";
+ z-index: 1001;
+ animation: mymove 1.5s infinite alternate;
+ }
+
+@keyframes mymove{
+  0%{
+     opacity: 100; 
+  }
+
+  100%{
+     opacity: 0;
+  }
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/content_loan_request" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+                        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="RPT 1"/>
+                    </TableRow>
+                    <android.support.v7.widget.RecyclerView android:id="@+id/card_recycler_view" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <Button android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/btnUpdate" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="UPDATE"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+                        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="RPT 2"/>
+                    </TableRow>
+                    <android.support.v7.widget.RecyclerView android:id="@+id/card_recycler_view2" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <Button android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/btnUpdate2" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="UPDATE"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+                        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="RPT 3"/>
+                    </TableRow>
+                    <android.support.v7.widget.RecyclerView android:id="@+id/card_recycler_view3" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <Button android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/btnUpdate3" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="UPDATE"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+                        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="RPT 4"/>
+                    </TableRow>
+                    <android.support.v7.widget.RecyclerView android:id="@+id/card_recycler_view4" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <Button android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/btnUpdate4" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="UPDATE"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+                        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="RPT 5"/>
+                    </TableRow>
+                    <android.support.v7.widget.RecyclerView android:id="@+id/card_recycler_view5" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <Button android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/btnUpdate5" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="UPDATE"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+                        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="RPT 6"/>
+                    </TableRow>
+                    <android.support.v7.widget.RecyclerView android:id="@+id/card_recycler_view6" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <Button android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/btnUpdate6" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="UPDATE"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TableRow android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+                        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_span="3" android:text="RPT 7"/>
+                    </TableRow>
+                    <android.support.v7.widget.RecyclerView android:id="@+id/card_recycler_view7" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <Button android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/btnUpdate7" android:background="@color/colorTblPrimaryDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="UPDATE"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

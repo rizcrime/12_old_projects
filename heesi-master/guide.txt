@@ -1,0 +1,1 @@
+1. Disable browser header footer print.

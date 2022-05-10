@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramNamaPetugas" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/nama_petugas_kemenag" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramNoTelpPetugasKemenag" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/tlp_p_kemenag" android:inputType="phone" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramPetugasPihk" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/nama_petugas_pihk" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramNoTelpPetugasPihk" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/tlp_p_pihk" android:inputType="phone" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramNamaPetugasPembimbing" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/nama_petugas_pembimbing" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramNoPetugasPembimbing" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/no_petugas_pembimbing" android:inputType="phone" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramNamaPetugasKesehatan" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/nama_petugas_kesehatan" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etProgramNoPetugasKesehatan" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/no_petugas_kesehatan" android:inputType="text" android:textAllCaps="true"/>
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

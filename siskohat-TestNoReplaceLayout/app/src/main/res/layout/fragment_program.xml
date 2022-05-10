@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/fragment_program" android:background="?android:attr/windowBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@color/colorAccent" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="PROGRAM HAJI KHUSUS"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="PIN"/>
+                    <TextView android:textStyle="bold" android:textColor="@android:color/black" android:gravity="right" android:id="@+id/tvProgramUID" android:background="@drawable/rounded_tag" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="13dp" android:minWidth="40dp" android:maxLines="1" android:layout_alignBaseline="@+id/string_id" android:layout_alignBottom="@+id/string_id" android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@+id/etProgramTglBerangkat" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/tgl_keberangkatan" android:inputType="text" android:textAllCaps="true"/>
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@+id/etProgramTglKepulangan" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/tgl_kepulangan" android:inputType="text" android:textAllCaps="true"/>
+                </android.support.design.widget.TextInputLayout>
+                <include layout="@layout/content_program_petugas"/>
+                <include layout="@layout/content_program_hotel_katering"/>
+                <include layout="@layout/content_program_transport_hotel"/> /&gt;\10
+            </LinearLayout>
+            <Button android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/btnUpdate" android:background="@drawable/round_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/btn_simpan"/>
+            <Button android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" android:gravity="center" android:id="@+id/btnBack" android:background="@color/colorTblLight" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="BACK"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</FrameLayout>

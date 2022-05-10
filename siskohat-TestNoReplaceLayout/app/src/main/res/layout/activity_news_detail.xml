@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/coordinatorLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@+id/appBarLayout" android:layout_width="match_parent" android:layout_height="200dp">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@+id/collapsingToolbarLayout" android:layout_width="match_parent" android:layout_height="match_parent" app:contentScrim="?attr/colorPrimary">
+            <ImageView android:id="@+id/ivNewsDetail" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/kaabah" android:scaleType="centerCrop" app:layout_collapseParallaxMultiplier="0.7"/>
+            <android.support.v7.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:title="Cities" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView android:id="@+id/nestedScrollView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp" android:fillViewport="true" >
+        <TextView android:id="@+id/tvNewsDetail" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="#Lorem ipsum dolor sit amet, augue ponderum eum ei, ne eum appetere verterem necessitatibus. Cu oratio voluptua consequat sea, iusto libris suavitate sed ne."/>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

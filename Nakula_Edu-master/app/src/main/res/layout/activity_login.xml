@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/biru_agak_gelap"
+    tools:context=".PaketLogin.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/background_utama">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:fontFamily="@font/segoeui"
+            android:textColor="@color/putih"
+            android:textStyle="bold"
+            android:text="Masuk"/>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeui"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/putih"
+                android:textStyle="bold"
+                android:text="Email"/>
+            <EditText
+                android:id="@+id/isi_email"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/putih"
+                android:hint="id"/>
+            <!--batas antara email dan password-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:fontFamily="@font/segoeui"
+                android:textColor="@color/putih"
+                android:textStyle="bold"
+                android:text="Password"/>
+            <EditText
+                android:id="@+id/isi_password"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:inputType="textPassword"
+                android:textColor="@color/putih"
+                android:hint="sandi"/>
+            <!--batas dengan check box-->
+            <CheckBox
+                android:id="@+id/saveLoginCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="ingat saya"
+                android:textColor="@color/putih" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/konfirm"
+            android:layout_marginTop="30dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/putih"
+            android:textStyle="bold"
+            android:background="@drawable/shape_tombol_red"
+            android:text="Konfirmasi" />
+        <Button
+            android:id="@+id/register"
+            android:layout_marginTop="30dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/putih"
+            android:textStyle="bold"
+            android:background="@drawable/shape_tombol_red"
+            android:text="register" />
+    </LinearLayout>
+
+</LinearLayout>

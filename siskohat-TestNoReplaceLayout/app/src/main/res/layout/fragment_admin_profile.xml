@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/fragment_profile_data" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/grey_light" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/profiledata" android:background="@color/grey_light" android:layout_width="match_parent" android:layout_height="70dp">
+                <TextView android:id="@+id/text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                <ImageView android:id="@+id/adminProfile" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:src="@drawable/ic_john_doe"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/ProfilePict" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="helo"/>
+                    <TextView android:textSize="16dp" android:textColor="@color/dark_gray" android:id="@+id/etProfileName" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Nama User"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/dark_gray" android:id="@+id/textUID" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UID : "/>
+                        <TextView android:textSize="12dp" android:textColor="@color/dark_gray" android:id="@+id/tvProfileUID" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:innerRadius="0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:padding="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground">
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/email"/>
+                        <TextView android:textColor="@color/colorTblPrimaryDark" android:id="@+id/etProfileEmail" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <View android:background="#40a6a6a6" android:layout_width="wrap_content" android:layout_height="1dp"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground">
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_izin"/>
+                        <TextView android:textColor="@color/colorTblPrimaryDark" android:id="@+id/etProfileNoIzin" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <View android:background="#40a6a6a6" android:layout_width="wrap_content" android:layout_height="1dp"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground">
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/masa_berlaku_izin"/>
+                        <TextView android:textColor="@color/colorTblPrimaryDark" android:id="@+id/etProfileMasaBerlaku" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <View android:background="#40a6a6a6" android:layout_width="wrap_content" android:layout_height="1dp"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground">
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/alamat"/>
+                        <TextView android:textColor="@color/colorTblPrimaryDark" android:id="@+id/etProfileAlamat" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <View android:background="#40a6a6a6" android:layout_width="wrap_content" android:layout_height="1dp"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground">
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Telepon"/>
+                        <TextView android:textColor="@color/colorTblPrimaryDark" android:id="@+id/etProfileTelp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <View android:background="#40a6a6a6" android:layout_width="wrap_content" android:layout_height="1dp"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground">
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/asosiasi"/>
+                        <TextView android:textColor="@color/colorTblPrimaryDark" android:id="@+id/etProfileAsosiasi" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <View android:background="#40a6a6a6" android:layout_width="wrap_content" android:layout_height="1dp"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground">
+                        <TextView android:textStyle="bold" android:id="@+id/action_logout" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/action_logout" android:onClick="action_logout"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+                <TextView android:textStyle="bold" android:id="@+id/copyright" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/app_name" android:textAllCaps="true"/>
+                <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/version"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/progressBar1" android:layout_width="match_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge"/>
+</FrameLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SIPATUH Haji Khusus</string>
+
+    <string name="login">Login</string>
+    <string name="pass">Password</string>
+    <string name="uname">Username</string>
+    <string name="sipatuh">SIPATUH</string>
+    <string name="haji">Haji Khusus</string>
+
+    <string name="keberangkatan_tanah_air">Keberangkatan\nTanah Air</string>
+    <string name="kedatngan_madinah">Kedatangan\nMadinah</string>
+    <string name="kedatngan_jeddah">Kedatangan\nJeddah</string>
+    <string name="kedatangan_makkah">Kedatangan\nMakkah</string>
+    <string name="kepulangan_arab">Kepulangan\nArab Saudi</string>
+    <string name="kedatangan_tanah_air">Kedatangan\nTanah Air</string>
+    <string name="kasus">Kasus-Kasus</string>
+    <string name="kedatngan_mina">Kepulangan\nMina</string>
+    <string name="kepulangan_arafah">Kedatangan\nArafah</string>
+    <string name="kepulangan_tarwiyah">Kedatangan\nTarwiyah</string>
+
+    <string name="kode_paket">Kode Paket</string>
+    <string name="no_urut">Pemberangkatan Ke</string>
+    <string name="ambil_data">Ambil Data</string>
+    <string name="rencana">Rencana</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="pukul">Waktu</string>
+    <string name="flight">Kode Flight</string>
+    <string name="bandara">Bandara Berangkat</string>
+    <string name="aktual">Aktual</string>
+    <string name="bandara_transit">Bandara Transit</string>
+    <string name="airlines">Nama Airlines</string>
+    <string name="hotel">Hotel</string>
+    <string name="maktab">Maktab Armuzna</string>
+    <string name="simpan">Simpan Data Jemaah</string>
+    <string name="nama_jamaah">Jemaah</string>
+	<string name="hotel_transit">Hotel\nTransit</string>
+
+    <string name="kejadian">Kejadian</string>
+    <string name="tgl_kasus">Tanggal Kasus</string>
+    <string name="tempat_kasus">Tempat Kasus</string>
+    <string name="waktu_kasus">Waktu Kasus</string>
+    <string name="simpan_kasus">Simpan Kasus</string>
+    <string name="version_name">v1.7</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="kementrian_agama">Kementerian Agama Republik Indonesia</string>
+
+</resources>

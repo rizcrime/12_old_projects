@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    app:theme="@style/ForNavdar">
+
+    <item android:id="@+id/performa_siswa" android:title="Performa siswa" android:icon="@drawable/performa_siswa"/>
+    <item android:id="@+id/tagihan" android:title="Tagihan dan Pembayaran" android:icon="@drawable/icon_money"/>
+    <item android:id="@+id/presensi_siswa" android:title="Presensi Siswa" android:icon="@drawable/logo_presensi"/>
+    <item android:id="@+id/tracking" android:title="Tracking" android:icon="@drawable/logo_tracking"/>
+</menu>

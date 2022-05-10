@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/content_loan_request" android:background="@color/grey_light" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <android.support.v7.widget.CardView android:id="@+id/rpt1" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_takeoff"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Keberangkatan Tanah Air"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:id="@+id/rpt2" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_landing"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Kedatangan Madinah"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <android.support.v7.widget.CardView android:id="@+id/rpt3" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_madinah"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Kedatangan Jeddah"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:id="@+id/rpt4"  android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_makkah"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Kedatangan Makkah"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <android.support.v7.widget.CardView android:id="@+id/rpt5" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_jeddah"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Kepulangan dari Arab Saudi"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:id="@+id/rpt6" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="50dp" android:src="@drawable/ic_saudi"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Kedatangan Tanah Air"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout android:visibility="gone" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <android.support.v7.widget.CardView android:id="@+id/jemaahSakit" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_sakit"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Jemaah Haji Sakit"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:id="@+id/Tbwafat" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="50dp" android:src="@drawable/ic_wafat"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Jemaah Haji Wafat"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout android:visibility="gone" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <android.support.v7.widget.CardView android:id="@+id/rpt11" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_kasushaji"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Kasus-Kasus Jemaah Haji"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:id="@+id/Tbsaran" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="50dp" android:src="@drawable/ic_hambatan"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Hambatan dan Saran"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <android.support.v7.widget.CardView android:id="@+id/rpt7" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_home"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Kasus-Kasus"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:id="@+id/backDataHome" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="50dp" android:src="@drawable/ic_back"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Kembali ke Menu"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <android.support.v7.widget.CardView android:id="@+id/mina" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/ic_home"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Kedatangan Mina"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:id="@+id/arafah" android:background="@color/white" android:clickable="true" android:layout_width="0dp" android:layout_height="150dp" android:layout_margin="10dp" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1" app:cardCornerRadius="4dp" app:cardElevation="5dp">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/rounded_tag" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="10dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="50dp" android:src="@drawable/ic_back"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="Kedatangan Arafah"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

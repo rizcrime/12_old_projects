@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="56dp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/panelAddress" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linearLayoutBar1" android:layout_width="0dp" android:layout_height="match_parent" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1">
+            <android.support.v7.widget.AppCompatImageView android:id="@+id/imageViewBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:tint="@color/colorTblPrimaryDark"/>
+            <android.support.v7.widget.AppCompatTextView android:textSize="12sp" android:textColor="@color/colorTblPrimaryDark" android:id="@+id/textViewBar1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linearLayoutBar2" android:layout_width="0dp" android:layout_height="match_parent" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1">
+            <android.support.v7.widget.AppCompatImageView android:id="@+id/imageViewBar2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:tint="@color/colorNavAccentUnselected"/>
+            <android.support.v7.widget.AppCompatTextView android:textSize="12sp" android:textColor="@color/colorNavAccentUnselected" android:id="@+id/textViewBar2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linearLayoutBar3" android:layout_width="0dp" android:layout_height="match_parent" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1">
+            <android.support.v7.widget.AppCompatImageView android:id="@+id/imageViewBar3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:tint="@color/colorNavAccentUnselected"/>
+            <android.support.v7.widget.AppCompatTextView android:textSize="12sp" android:textColor="@color/colorNavAccentUnselected" android:id="@+id/textViewBar3" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linearLayoutBar4" android:layout_width="0dp" android:layout_height="match_parent" android:foreground="?android:attr/selectableItemBackground" android:layout_weight="1">
+            <android.support.v7.widget.AppCompatImageView android:id="@+id/imageViewBar4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:tint="@color/colorNavAccentUnselected"/>
+            <android.support.v7.widget.AppCompatTextView android:textSize="12sp" android:textColor="@color/colorNavAccentUnselected" android:id="@+id/textViewBar4" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#80a6a6a6" android:layout_width="wrap_content" android:layout_height="1dp"/>
+</FrameLayout>
